@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+/*  
+    Paleta de cores
+
+        #2C3D73 - Azul escuro
+        #9BC1F2 - Azul claro
+        #829FD9 - Azul médio
+        #401201 - Marrom escuro
+
+    Mobile first
+
+        Celular : de 600px até 768px
+        Tablets: de 769px até 992px
+        Desktop: 992px até 1200px
+        Grandes telas: acima de 1200px  
+    
+*/ 
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    body{
+        background-image: linear-gradient(to top, #2C3D73 #9BC1F2  );
+    }
+
+        section#login{
+            width: 90vw;
+        }
+    
+        section#login > div#imagem {
+            float: left;
+            width: 30%;
+            height: 100%;
+        }
+
+        section#login > div#formulario {
+            float:right;
+            width: 70%;
+            height: 100%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    body{
+        background-image: linear-gradient(to top, #2C3D73 #9BC1F2  );
+    }
+        section#login {
+            width: 950px;
+        }
+
+        section#login > div#imagem {
+            float:left;
+            width: 50%;
+            height: 100%;
+        }
+
+        section#login > div#formulario {
+            float:right;
+            width: 50%;
+            height: 100%;
+        }
+    }
