@@ -16,6 +16,19 @@
     
 */
 
+@media screen and (max-width:600px){
+
+    h1{
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    p{
+        font-size: 1.1em;
+    }
+}
+
+
 @media screen and (min-width:769px) and (max-width:992px) {
 
     body {
@@ -33,14 +46,22 @@
 
     section#login > div#imagem {
         height: 100%;
-        width: 30%;
+        width: 40%;
         
     }
 
     section#login > div#formulario {
         height: 100%;
-        width: 70%;
+        width: 60%;
         
+    }
+
+    h1{
+        font-size: 1.8em;
+    }
+
+    p{
+        font-size: 1.1em;
     }
 }
 
@@ -53,15 +74,32 @@
     section#login {
         width: 950px;
         display: flex;
+        
     }
 
     section#login > div#imagem {
-        width: 50%;
+        
+        width: 55%;
         height: 100%;
     }
 
     section#login > div#formulario {
-        width: 80%;
+        
         height: 100%;
+        width: 70%;
+        
+    }
+
+    div#fomulario > h1 {
+        font-size: 2em;
+        text-align: center;
+    }
+
+    h1{
+        font-size: 2em;
+    }
+
+    p{
+        font-size: 1.3em;
     }
 }
