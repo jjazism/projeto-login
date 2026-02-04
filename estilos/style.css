@@ -69,13 +69,9 @@ section#login > div#formulario {
 
 h1{
     text-align: center;
-}
-
-div#fomulario > h1{
-    text-align: center;
     margin-bottom: 10px;
 }
 
-div#fomulario > p {
+p {
     font-size: 0.8em;
 }
