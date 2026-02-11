@@ -16,8 +16,8 @@
     
 */
 
-@media screen and (min-width:769px) and (max-width:992px) {
-
+@media screen and (min-width:769px) and (max-width:991px) {
+        /* config p tablet */
     body {
         background-image: linear-gradient(to top, #2C3D73, #9BC1F2);
         background-repeat: no-repeat;
@@ -25,10 +25,18 @@
        
     }
 
+    div.campo > input{
+    background-color: #9BC1F2;
+    font-size: 1em;
+    width: 330px;
+    
+}
+
+
     section#login {
         width: 90vw;
         display: flex;
-        height: 400px;
+        height: 320px;
     }
 
     section#login > div#imagem {
@@ -43,25 +51,33 @@
         
     }
 
-    h1{
-        text-align: center;
-        font-size: 1.8em;
-    }
-
-    p{
-        font-size: 1.1em;
-    }
+    
 }
 
-@media screen and (min-width:992px) {
+@media screen and (min-width:992px) 
+    /* config p desktop */
+{
 
     body {
         background-image: linear-gradient(to top, #2C3D73, #9BC1F2  );
     }
 
+
+    div.campo > input{
+    background-color: #9BC1F2;
+    font-size: 1em;
+    width: 450px;
+    height: 70%;
+    transform: translateY(-12px);
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+}
+
     section#login {
         width: 950px;
         display: flex;
+        height: 400px;
         
     }
 
@@ -78,7 +94,7 @@
         
     }
 
-    div#fomulario > h1 {
+    div#formulario > h1 {
         font-size: 2em;
         text-align: center;
     }
@@ -88,6 +104,6 @@
     }
 
     p{
-        font-size: 1.3em;
+        font-size: 1.2em;
     }
 }
